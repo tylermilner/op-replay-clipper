@@ -1,4 +1,4 @@
-FROM ghcr.io/commaai/openpilot-prebuilt:latest AS base
+FROM ghcr.io/commaai/openpilot-prebuilt:829e3c96720a62b212dde2dfdd5879186b481d4d AS base
 
 ENV DEBIAN_FRONTEND=noninteractive
 
